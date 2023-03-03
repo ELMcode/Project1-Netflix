@@ -1,0 +1,95 @@
+.homepagelogo {
+  height: 25px;
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: rgb(226, 27, 27);
+  font-size: 35px;
+  font-family: "BebasNeue-Regular", sans-serif;
+  padding: 40px;
+  margin: -30px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin: 10px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  font-size: 70px;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  color: rgb(123, 121, 121);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+button {
+  color: orange;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Profils img {
+  height: 180px;
+  width: 180px;
+  margin: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #141414;
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+  margin: 0px;
+}
+
+button:hover {
+  color: white;
+  border-color: white;
+}
+
+figcaption {
+  color: gray;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.ImgProfils:hover {
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+  box-sizing: border-box;
+}
+
+figure figcaption:hover {
+  color: white;
+}
+
+button {
+  background-color: rgb(23, 23, 23);
+  color: gray;
+  border-color: gray;
+  border-style: solid;
+  height: 60px;
+  width: 260px;
+  font-size: 25px;
+  margin: 100px;
+  cursor: pointer;
+}
